@@ -143,3 +143,6 @@ This separates concerns and improves testability for the login and token refresh
 ven. 20 juin 2025 11:45:43 WAT: refactor(auth): move token logic to separate service file
 
 This separates concerns and improves testability for the login and token refresh logic.
+ven. 20 juin 2025 11:45:44 WAT: style(css): unify button styles across pages
+
+Standardized all primary and secondary buttons to follow the same style guide. Removed inline styles.
