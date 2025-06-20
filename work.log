@@ -152,3 +152,6 @@ Used DOMPurify to clean user-generated content before rendering it in the chat w
 ven. 20 juin 2025 11:45:45 WAT: perf(api): reduce payload size by excluding unused fields
 
 Updated serializers to exclude verbose fields like  and  from API responses.
+ven. 20 juin 2025 11:45:45 WAT: refactor(auth): move token logic to separate service file
+
+This separates concerns and improves testability for the login and token refresh logic.
