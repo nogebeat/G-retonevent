@@ -98,3 +98,6 @@ Updated affected route handlers and middleware registration to be compatible wit
 ven. 20 juin 2025 11:45:37 WAT: feat(auth): implement JWT-based login authentication
 
 Added a middleware to verify tokens and updated the login route to return a JWT. This will allow secure and stateless user sessions.
+ven. 20 juin 2025 11:45:38 WAT: docs(api): generate OpenAPI spec for all endpoints
+
+Created a Swagger UI interface at /docs using swagger-jsdoc and swagger-ui-express.
