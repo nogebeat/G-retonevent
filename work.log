@@ -44,3 +44,6 @@ Added a middleware to verify tokens and updated the login route to return a JWT.
 ven. 20 juin 2025 11:45:30 WAT: feat(profile): allow users to upload avatar images
 
 Integrated file upload using multer and added an endpoint for uploading profile pictures. Files are now stored in /uploads.
+ven. 20 juin 2025 11:45:30 WAT: feat(settings): add user preference saving for dark mode
+
+Stored dark mode preference in localStorage and applied corresponding CSS class on page load.
