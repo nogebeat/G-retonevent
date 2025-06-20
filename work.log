@@ -107,3 +107,6 @@ Added fallback to index.html using Express static middleware configuration to su
 ven. 20 juin 2025 11:45:38 WAT: fix(ui): correct broken layout on mobile devices
 
 The sidebar was overflowing on screens smaller than 400px. Applied flex-wrap and adjusted padding to resolve the issue.
+ven. 20 juin 2025 11:45:39 WAT: chore(cleanup): remove deprecated endpoints and unused code
+
+Deleted old  routes and cleaned up legacy functions that are no longer used in production.
