@@ -1,0 +1,41 @@
+{
+  "name": "G-retonevent",
+  "version": "1.0.0",
+  "description": "Application du Rond point pour le Gestion des ticketsl",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run backend\" \"npm run client\"",
+    "server": "cd backend && npm start",
+    "client": "cd ./frontend-web && npm run start",
+    "server:dev": "cd backend && npm run dev",
+    "client-web:dev": "cd frontend-web && npm run dev",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend-web && npm install",
+    "build": "cd backend && npm run build && cd ../frontend-web && npm install && npm run build",
+    "test": "concurrently \"cd backend && nodemon test\" \"cd ../frontend-web && nodemon test\" \"cd ../festichill-mobile && nodemon test\"",
+    "test-server": "cd backend && nodemon test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nogebeat/G-retonevent.git"
+  },
+  "keywords": [
+    "Noge"
+  ],
+  "author": "Noge",
+  "license": "Apache",
+  "bugs": {
+    "url": "https://github.com/nogebeat/G-retonevent/issues"
+  },
+  "homepage": "https://github.com/nogebeat/G-retonevent#readme",
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "html5-qrcode": "^2.3.8",
+    "nodemon": "^3.1.9"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.4",
+    "tailwindcss": "^4.1.8",
+    "vite": "^6.3.5"
+  }
+}
