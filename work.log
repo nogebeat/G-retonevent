@@ -101,3 +101,6 @@ Added a middleware to verify tokens and updated the login route to return a JWT.
 ven. 20 juin 2025 11:45:38 WAT: docs(api): generate OpenAPI spec for all endpoints
 
 Created a Swagger UI interface at /docs using swagger-jsdoc and swagger-ui-express.
+ven. 20 juin 2025 11:45:38 WAT: fix(router): prevent 404 on hard refresh in SPA mode
+
+Added fallback to index.html using Express static middleware configuration to support client-side routing.
