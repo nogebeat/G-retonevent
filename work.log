@@ -113,3 +113,6 @@ Deleted old  routes and cleaned up legacy functions that are no longer used in p
 ven. 20 juin 2025 11:45:39 WAT: docs(readme): update installation instructions and prerequisites
 
 Added missing dependencies and clarified Node.js version requirement to avoid common setup issues.
+ven. 20 juin 2025 11:45:40 WAT: test(api): add integration tests for registration endpoint
+
+Covered happy path, duplicate user registration, and invalid input scenarios using supertest and Jest.
