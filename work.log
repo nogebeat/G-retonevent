@@ -110,3 +110,6 @@ The sidebar was overflowing on screens smaller than 400px. Applied flex-wrap and
 ven. 20 juin 2025 11:45:39 WAT: chore(cleanup): remove deprecated endpoints and unused code
 
 Deleted old  routes and cleaned up legacy functions that are no longer used in production.
+ven. 20 juin 2025 11:45:39 WAT: docs(readme): update installation instructions and prerequisites
+
+Added missing dependencies and clarified Node.js version requirement to avoid common setup issues.
