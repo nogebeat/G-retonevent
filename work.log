@@ -119,3 +119,6 @@ Covered happy path, duplicate user registration, and invalid input scenarios usi
 ven. 20 juin 2025 11:45:40 WAT: fix(api): handle null values in query parameters
 
 Previously, null query values caused SQL errors. Now these parameters are sanitized and properly defaulted.
+ven. 20 juin 2025 11:45:41 WAT: style(lint): fix ESLint and Prettier warnings across entire codebase
+
+Ran auto-fix and manual updates to ensure consistency and adherence to code style.
