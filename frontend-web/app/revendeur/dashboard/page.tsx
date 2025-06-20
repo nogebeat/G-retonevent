@@ -305,7 +305,7 @@ export default function RevendeurDashboard() {
   // Fonction pour détecter le type de ticket
   const detectTicketType = async (qrCodeValue) => {
     try {
-      const externalResponse = await fetch(``, {
+      const externalResponse = await fetch(`https://api.aladecouvertedelafrique.com/api/festichill`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ qrcode: qrCodeValue })

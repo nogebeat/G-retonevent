@@ -561,7 +561,7 @@ const handlePasswordChange = async (e) => {
                   <div className="mt-3 flex flex-wrap gap-2">
                     <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-purple-100 text-purple-800">
                       <span className="w-2 h-2 bg-purple-500 rounded-full mr-2"></span>
-                      Revendeur Officiel Geretonevent
+                      Revendeur Officiel Festichill
                     </span>
                   </div>
                 </div>

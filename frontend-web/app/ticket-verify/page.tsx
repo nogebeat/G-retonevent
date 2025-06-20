@@ -150,7 +150,7 @@ export default function TicketVerifyPage() {
       <div className="max-w-md mx-auto bg-white rounded-xl shadow-lg overflow-hidden md:max-w-2xl">
         <div className="text-center p-6">
           <h1 className="text-3xl font-bold text-gray-900 mb-6">
-            Vérification de Ticket Geretonevent
+            Vérification de Ticket Festichill
           </h1>
 
           {/* Section de scan QR */}
@@ -257,7 +257,7 @@ export default function TicketVerifyPage() {
               onClick={() => router.push('https://festichill-final-show.netlify.app/')}
               className="text-indigo-600 hover:text-indigo-900"
             >
-              Rendez-vous Au Geretonevent 2025
+              Rendez-vous Au Festichill 2025
             </button>
           </div>
         </div>

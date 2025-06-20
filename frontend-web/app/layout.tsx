@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "LE ROND POINT CLASS",
-  description: "Fait le point de ta vente de tickets Geretonevent",
+  description: "Fait le point de ta vente de tickets Festichill",
 };
 
 export default function RootLayout({
