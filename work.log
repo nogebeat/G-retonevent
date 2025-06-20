@@ -26,3 +26,4 @@ Fri Jun 20 09:21:26 WAT 2025: test: add unit test for auth function
 Fri Jun 20 09:21:26 WAT 2025: style: remove console.log statements
 Fri Jun 20 09:21:27 WAT 2025: fix: resolve crash on startup
 Fri Jun 20 09:21:27 WAT 2025: fix: handle edge case in parser
+Fri Jun 20 09:21:27 WAT 2025: feat: add basic error handling
