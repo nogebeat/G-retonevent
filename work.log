@@ -3,3 +3,4 @@ Fri Jun 20 09:21:13 WAT 2025: style: reformat code with prettier
 Fri Jun 20 09:21:14 WAT 2025: style: reformat code with prettier
 Fri Jun 20 09:21:14 WAT 2025: 
 Fri Jun 20 09:21:15 WAT 2025: fix: resolve crash on startup
+Fri Jun 20 09:21:15 WAT 2025: test: add unit test for auth function
