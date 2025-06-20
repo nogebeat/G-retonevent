@@ -24,3 +24,4 @@ Fri Jun 20 09:21:25 WAT 2025: style: reformat code with prettier
 Fri Jun 20 09:21:25 WAT 2025: feat: add support for dark mode
 Fri Jun 20 09:21:26 WAT 2025: test: add unit test for auth function
 Fri Jun 20 09:21:26 WAT 2025: style: remove console.log statements
+Fri Jun 20 09:21:27 WAT 2025: fix: resolve crash on startup
