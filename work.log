@@ -47,3 +47,6 @@ Integrated file upload using multer and added an endpoint for uploading profile 
 ven. 20 juin 2025 11:45:30 WAT: feat(settings): add user preference saving for dark mode
 
 Stored dark mode preference in localStorage and applied corresponding CSS class on page load.
+ven. 20 juin 2025 11:45:30 WAT: docs(api): generate OpenAPI spec for all endpoints
+
+Created a Swagger UI interface at /docs using swagger-jsdoc and swagger-ui-express.
