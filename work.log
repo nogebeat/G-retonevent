@@ -137,3 +137,6 @@ Added a middleware to verify tokens and updated the login route to return a JWT.
 ven. 20 juin 2025 11:45:43 WAT: docs(api): generate OpenAPI spec for all endpoints
 
 Created a Swagger UI interface at /docs using swagger-jsdoc and swagger-ui-express.
+ven. 20 juin 2025 11:45:43 WAT: refactor(auth): move token logic to separate service file
+
+This separates concerns and improves testability for the login and token refresh logic.
