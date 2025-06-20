@@ -38,3 +38,6 @@ Fri Jun 20 09:21:31 WAT 2025: chore: bump version to 1.0.1
 Fri Jun 20 09:21:31 WAT 2025: chore: bump version to 1.0.1
 Fri Jun 20 09:21:32 WAT 2025: 
 Fri Jun 20 09:21:32 WAT 2025: chore: update package-lock.json
+ven. 20 juin 2025 11:45:29 WAT: feat(auth): implement JWT-based login authentication
+
+Added a middleware to verify tokens and updated the login route to return a JWT. This will allow secure and stateless user sessions.
