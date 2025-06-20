@@ -131,3 +131,6 @@ Covered happy path, duplicate user registration, and invalid input scenarios usi
 ven. 20 juin 2025 11:45:42 WAT: perf(db): add index to 'email' column on 'users' table
 
 Improved lookup performance on login and password reset endpoints by adding an index to the email column.
+ven. 20 juin 2025 11:45:42 WAT: feat(auth): implement JWT-based login authentication
+
+Added a middleware to verify tokens and updated the login route to return a JWT. This will allow secure and stateless user sessions.
