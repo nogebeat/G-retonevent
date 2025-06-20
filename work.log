@@ -80,3 +80,6 @@ Used DOMPurify to clean user-generated content before rendering it in the chat w
 ven. 20 juin 2025 11:45:35 WAT: chore(deps): upgrade express to v4.18.2 and fix breaking changes
 
 Updated affected route handlers and middleware registration to be compatible with the latest version of Express.
+ven. 20 juin 2025 11:45:35 WAT: style(css): unify button styles across pages
+
+Standardized all primary and secondary buttons to follow the same style guide. Removed inline styles.
