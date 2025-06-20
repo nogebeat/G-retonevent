@@ -65,3 +65,6 @@ Covered edge cases for invalid dates, timezone offsets, and daylight savings adj
 ven. 20 juin 2025 11:45:33 WAT: fix(ui): correct broken layout on mobile devices
 
 The sidebar was overflowing on screens smaller than 400px. Applied flex-wrap and adjusted padding to resolve the issue.
+ven. 20 juin 2025 11:45:33 WAT: fix(security): sanitize user inputs to prevent XSS
+
+Used DOMPurify to clean user-generated content before rendering it in the chat window.
