@@ -146,3 +146,6 @@ This separates concerns and improves testability for the login and token refresh
 ven. 20 juin 2025 11:45:44 WAT: style(css): unify button styles across pages
 
 Standardized all primary and secondary buttons to follow the same style guide. Removed inline styles.
+ven. 20 juin 2025 11:45:44 WAT: fix(security): sanitize user inputs to prevent XSS
+
+Used DOMPurify to clean user-generated content before rendering it in the chat window.
