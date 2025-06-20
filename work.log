@@ -128,3 +128,6 @@ Integrated file upload using multer and added an endpoint for uploading profile 
 ven. 20 juin 2025 11:45:41 WAT: test(api): add integration tests for registration endpoint
 
 Covered happy path, duplicate user registration, and invalid input scenarios using supertest and Jest.
+ven. 20 juin 2025 11:45:42 WAT: perf(db): add index to 'email' column on 'users' table
+
+Improved lookup performance on login and password reset endpoints by adding an index to the email column.
