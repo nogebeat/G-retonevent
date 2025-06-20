@@ -1,6 +1,0 @@
-MYSQL_DATABASE=festiciel_db_test
-MYSQL_HOST=mysql-festiciel.alwaysdata.net
-MYSQL_USER=festiciel
-MYSQL_ROOT_PASSWORD=lerondpointclassfestichill2025
-PORT=2001
-JWT_SECRET=2525667ADC@NOGE
