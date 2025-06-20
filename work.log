@@ -116,3 +116,6 @@ Added missing dependencies and clarified Node.js version requirement to avoid co
 ven. 20 juin 2025 11:45:40 WAT: test(api): add integration tests for registration endpoint
 
 Covered happy path, duplicate user registration, and invalid input scenarios using supertest and Jest.
+ven. 20 juin 2025 11:45:40 WAT: fix(api): handle null values in query parameters
+
+Previously, null query values caused SQL errors. Now these parameters are sanitized and properly defaulted.
