@@ -125,3 +125,6 @@ Ran auto-fix and manual updates to ensure consistency and adherence to code styl
 ven. 20 juin 2025 11:45:41 WAT: feat(profile): allow users to upload avatar images
 
 Integrated file upload using multer and added an endpoint for uploading profile pictures. Files are now stored in /uploads.
+ven. 20 juin 2025 11:45:41 WAT: test(api): add integration tests for registration endpoint
+
+Covered happy path, duplicate user registration, and invalid input scenarios using supertest and Jest.
