@@ -13,3 +13,4 @@ Fri Jun 20 09:21:18 WAT 2025: chore: clean up unused imports
 Fri Jun 20 09:21:18 WAT 2025: fix: correct minor typo
 Fri Jun 20 09:21:19 WAT 2025: fix: resolve crash on startup
 Fri Jun 20 09:21:19 WAT 2025: fix: correct minor typo
+Fri Jun 20 09:21:19 WAT 2025: feat: add support for dark mode
