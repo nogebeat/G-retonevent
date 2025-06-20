@@ -86,3 +86,6 @@ Standardized all primary and secondary buttons to follow the same style guide. R
 ven. 20 juin 2025 11:45:35 WAT: fix(router): prevent 404 on hard refresh in SPA mode
 
 Added fallback to index.html using Express static middleware configuration to support client-side routing.
+ven. 20 juin 2025 11:45:36 WAT: fix(router): prevent 404 on hard refresh in SPA mode
+
+Added fallback to index.html using Express static middleware configuration to support client-side routing.
