@@ -68,3 +68,6 @@ The sidebar was overflowing on screens smaller than 400px. Applied flex-wrap and
 ven. 20 juin 2025 11:45:33 WAT: fix(security): sanitize user inputs to prevent XSS
 
 Used DOMPurify to clean user-generated content before rendering it in the chat window.
+ven. 20 juin 2025 11:45:33 WAT: feat(settings): add user preference saving for dark mode
+
+Stored dark mode preference in localStorage and applied corresponding CSS class on page load.
