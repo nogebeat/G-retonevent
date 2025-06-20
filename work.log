@@ -149,3 +149,6 @@ Standardized all primary and secondary buttons to follow the same style guide. R
 ven. 20 juin 2025 11:45:44 WAT: fix(security): sanitize user inputs to prevent XSS
 
 Used DOMPurify to clean user-generated content before rendering it in the chat window.
+ven. 20 juin 2025 11:45:45 WAT: perf(api): reduce payload size by excluding unused fields
+
+Updated serializers to exclude verbose fields like  and  from API responses.
