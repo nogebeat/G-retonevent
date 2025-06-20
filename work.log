@@ -7,3 +7,4 @@ Fri Jun 20 09:21:15 WAT 2025: test: add unit test for auth function
 Fri Jun 20 09:21:15 WAT 2025: refactor: move helpers to utils.js
 Fri Jun 20 09:21:16 WAT 2025: refactor: simplify loop logic
 Fri Jun 20 09:21:16 WAT 2025: feat: add support for dark mode
+Fri Jun 20 09:21:17 WAT 2025: chore: clean up unused imports
