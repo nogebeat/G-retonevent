@@ -74,3 +74,6 @@ Stored dark mode preference in localStorage and applied corresponding CSS class 
 ven. 20 juin 2025 11:45:34 WAT: refactor(user-service): extract email validation to utility function
 
 Moved the email validation logic to a separate reusable module to keep the service cleaner and more maintainable.
+ven. 20 juin 2025 11:45:34 WAT: fix(security): sanitize user inputs to prevent XSS
+
+Used DOMPurify to clean user-generated content before rendering it in the chat window.
