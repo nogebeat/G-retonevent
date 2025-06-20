@@ -22,3 +22,4 @@ Fri Jun 20 09:21:21 WAT 2025: refactor: restructure component tree
 Fri Jun 20 09:21:22 WAT 2025: fix: correct DB connection timeout
 Fri Jun 20 09:21:25 WAT 2025: style: reformat code with prettier
 Fri Jun 20 09:21:25 WAT 2025: feat: add support for dark mode
+Fri Jun 20 09:21:26 WAT 2025: test: add unit test for auth function
