@@ -62,3 +62,6 @@ The sidebar was overflowing on screens smaller than 400px. Applied flex-wrap and
 ven. 20 juin 2025 11:45:32 WAT: test(helpers): add unit tests for date formatting utilities
 
 Covered edge cases for invalid dates, timezone offsets, and daylight savings adjustments.
+ven. 20 juin 2025 11:45:33 WAT: fix(ui): correct broken layout on mobile devices
+
+The sidebar was overflowing on screens smaller than 400px. Applied flex-wrap and adjusted padding to resolve the issue.
